@@ -101,8 +101,8 @@ You can pre-seed values to skip prompts:
 
 ```powershell
 .\DNS-VPN-Diagnostics.ps1 `
-  -vpnName "ELMFS-VPN-v2" `
-  -expectedVpnDns "10.15.0.4" `
+  -vpnName "Your VPN Name" `
+  -expectedVpnDns "10.0.0.1" `
   -desiredMetric "5" `
   -LogDir "C:\VPN\Logs"
 ```
